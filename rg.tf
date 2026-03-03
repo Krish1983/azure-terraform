@@ -1,4 +1,3 @@
-resource "azurerm_resource_group" "rg_demo" {
-  name     = "rg-demo-kk"
-  location = "eastus"
+data "azurerm_resource_group" "existing" {
+  name = "kml_rg_main-08315d146cd44dba"
 }

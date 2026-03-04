@@ -19,4 +19,10 @@ variable "resource_group_name" {
 }
 
 
+variable "vnet_tags" {
+ type = map(string)
+ default = {
+ "Name" = "Vnetdemo"
+}
+}
 
